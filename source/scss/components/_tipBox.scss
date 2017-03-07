@@ -1,0 +1,39 @@
+.tipBox {
+    height: 207px;
+    margin-right: $marginRight;
+    margin-left: 245px;
+    float: left;
+    border-radius: $stdRadius;
+    background-color: map-get($colors, boxBackground);
+    p {
+        width: 210px;
+        height: 30px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: center;
+        margin: 2px auto;
+        padding-top: 9px;
+        border-radius: $stdRadius;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+}
+
+.tipMain {
+    height: 80px;
+    width: 210px;
+    margin: 9px auto 5px auto;
+    background-color: map-get($colors, primaryBackground);
+    text-align: center;
+    padding: 12px;
+    border-radius: $stdRadius;
+    line-height: 15px;
+}
+
+.tipMore {
+    background-color: map-get($colors, hooprBlue);
+}
+
+.tipAnother {
+    background-color: map-get($colors, hooprOrange);
+}

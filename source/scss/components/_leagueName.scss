@@ -1,0 +1,7 @@
+.leagueName {
+  height: 50px;
+  background-color: map-get($colors, boxBackground);
+  float: left;
+  margin-right: 25px;
+  border-radius: $stdRadius;
+}

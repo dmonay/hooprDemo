@@ -1,0 +1,23 @@
+.menuBox {
+    height: 220px;
+    border-radius: $stdRadius;
+    background-color: map-get($colors, boxBackground);
+    margin-bottom: 15px;
+}
+
+.menuItem {
+    height: 44px;
+    border-bottom: 1px solid #e4e0e0;
+    border-radius: $stdRadius;
+    p {
+        float: left;
+        width: 190px;
+    }
+    &:first-child {
+      background-color: map-get($colors, hooprOrange);
+      color: map-get($colors, boxBackground);
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+}

@@ -1,0 +1,116 @@
+.playerBox {
+    height: 280px;
+    margin-right: $marginRight;
+    float: left;
+    border-radius: $stdRadius;
+    background-color: map-get($colors, boxBackground);
+}
+
+.sectionTitle {
+    height: 44px;
+    border-bottom: 1px solid #e4e0e0;
+    border-radius: $stdRadius;
+    p {
+        float: left;
+    }
+}
+
+.playerHeading {
+    height: 44px;
+    width: 170px;
+    float: left;
+    color: map-get($colors, hooprOrange);
+    p {
+        letter-spacing: 0.6px;
+    }
+}
+
+.playerArrowWedge {
+    height:0;
+    width: 54px;
+    left: 176px;
+    position: relative;
+    border-width: 0px 35px 44px 14px;
+    border-style:solid;
+    border-color:transparent map-get($colors, hooprOrange) map-get($colors, hooprOrange) transparent;
+}
+
+.playerArrow {
+    height: 44px;
+    width: 60px;
+    float: right;
+    top: -30px;
+    position: relative;
+    color: map-get($colors, boxBackground);
+}
+
+.playerActionShot {
+    background: url(../assets/img/steph_layup.png) no-repeat;
+    background-size: cover;
+    background-position-x: 121px;
+    background-position-y: -17px;
+    width: 230px;
+    height: 236px;
+    position: relative;
+    top: -226px;
+    opacity: 0.3;
+}
+
+.playerName {
+    color: map-get($colors, hooprOrange);
+    position: relative;
+    left: 40px;
+    padding-top: 12px;
+    font-size: 17px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.playerTeam {
+    color: map-get($colors, hooprBlue);
+    position: relative;
+    left: 28px;
+    padding-top: 4px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 30px
+}
+
+.playerNumber {
+    width: 40px;
+    height: 40px;
+    color: map-get($colors, hooprBlue);
+    border: 1px solid map-get($colors, hooprBlue);
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    float: left;
+    margin-left: 10px;
+}
+
+.playerPosition {
+    width: 40px;
+    height: 40px;
+    color: map-get($colors, hooprOrange);
+    border: 1px solid map-get($colors, hooprOrange);
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-left: 9px;
+    font-size: 16px;
+    float: right;
+    margin-right: 10px;
+}
+
+.playerHeadshot {
+    background: url(../assets/img/steph_headshot.png);
+    background-size: cover;
+    background-position-x: -21px;
+    background-position-y: 0px;
+    width: 130px;
+    height: 130px;
+    border: 1px solid map-get($colors, hooprBlue);
+    border-radius: 100%;
+    margin: 17px auto;
+}

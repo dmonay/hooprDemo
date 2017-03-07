@@ -1,0 +1,29 @@
+.spiderBox {
+    width: 450px;
+    height: 280px;
+    float: left;
+    border-radius: $stdRadius;
+}
+
+.legend {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    fill: #3488bb;
+}
+
+.tooltip {
+    fill: #333333;
+}
+
+svg {
+    width: 450px;
+    height: 300px;
+    padding-left: 98px;
+    padding-top: 42px;
+}
+
+rect {
+    fill: #ffffff;
+    stroke: none;
+}

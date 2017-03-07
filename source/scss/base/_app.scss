@@ -1,0 +1,14 @@
+body {
+    background-color: map-get($colors, primaryBackground);
+    color: map-get($colors, primaryText);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#hooperApp {
+    width: 1000px;
+    height: 730px;
+    border: 1px solid #dcdcdc;
+    margin: 30px auto 0 auto;
+    border-radius: $stdRadius;
+    font-size: 13px;
+}

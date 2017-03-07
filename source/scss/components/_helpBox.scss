@@ -1,0 +1,14 @@
+.helpBox {
+  height: 45px;
+  border-radius: $stdRadius;
+  background-color: map-get($colors, boxBackground);
+  p {
+    float: left;
+    color: map-get($colors, hooprBlue);
+    font-size: 13px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 16px;
+    text-transform: uppercase;
+  }
+}

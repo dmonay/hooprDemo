@@ -1,0 +1,100 @@
+.ppiBox {
+    width: 450px;
+    height: 280px;
+    float: left;
+    border-radius: $stdRadius;
+    background-color: map-get($colors, boxBackground);
+}
+
+.sectionTitle {
+    h1 {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 0;
+        color: map-get($colors, hooprOrange);
+        font-size: 18px;
+        letter-spacing: 0.6px;
+    }
+}
+
+.ppiDuration {
+    height: 44px;
+    border-bottom: 1px solid #e4e0e0;
+}
+
+.ppiDurationDescriptor {
+    float: left;
+}
+
+.ppiDurationWedge {
+    height:0;
+    width: 120px;
+    left: 330px;
+    position: relative;
+    border-width: 0px 35px 44px 14px;
+    border-style:solid;
+    border-color:transparent map-get($colors, hooprOrange) map-get($colors, hooprOrange) transparent;
+}
+
+.ppiDurationQuantity {
+    height: 44px;
+    width: 110px;
+    float: right;
+    top: 185px;
+    right: 245px;
+    padding-top: 13px;
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: 300;
+    position: absolute;
+    color: map-get($colors, boxBackground);
+    text-transform: uppercase;
+}
+
+.ppiStatDescriptor {
+    width: 450px;
+    height: 30px;
+    border-bottom: 1px solid #e4e0e0;
+    p {
+        color: map-get($colors, hooprOrange);
+        text-transform: uppercase;
+        float: left;
+        font-size: 12px;
+        width: 150px;
+        padding-left: 20px;
+        padding-top: 8px;
+        &:nth-child(2) {
+            padding-left: 10px;
+        }
+    }
+}
+
+.ppiStatQuantity {
+    height: 30px;
+    p {
+        color: map-get($colors, hooprBlue);
+        float: left;
+        font-size: 21px;
+        font-weight: 700;
+        width: 150px;
+        padding-left: 20px;
+        padding-top: 8px;
+        &:nth-child(2) {
+            padding-left: 10px;
+        }
+    }
+}
+
+.ppiStatSummary {
+    height: 100px;
+    width: 400px;
+    margin: 16px auto;
+    background-color: map-get($colors, primaryBackground);
+    text-align: center;
+    padding: 0 15px;
+    p {
+        padding-top: 17px;
+        line-height: 17px;
+    }
+}

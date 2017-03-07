@@ -1,0 +1,14 @@
+.pageName {
+  height: 50px;
+  background-color: map-get($colors, boxBackground);
+  float: left;
+  border-radius: $stdRadius;
+  p {
+    float: left;
+  }
+  i {
+    position: relative;
+    top: 18px;
+    font-size: 18px;
+  }
+}
