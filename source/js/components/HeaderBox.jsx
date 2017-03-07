@@ -1,6 +1,6 @@
-import React from "react";
-import LeagueName from "./LeagueName";
-import PageName from "./PageName";
+import React from 'react';
+import LeagueName from './LeagueName';
+import PageName from './PageName';
 
 export default ({ data3 }) => (
     <div className="headerBox">

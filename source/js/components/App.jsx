@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import HeaderBox from "./HeaderBox";
-import PlayerBoxTop from "./PlayerBoxTop";
-import PlayerBoxBottom from "./PlayerBoxBottom";
+import HeaderBox from './HeaderBox';
+import PlayerBoxTop from './PlayerBoxTop';
+import PlayerBoxBottom from './PlayerBoxBottom';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -10,24 +10,24 @@ export default class App extends React.Component {
 
     // in production this would be supplied by server
     this.state = {
-      type: "profile",
+      type: 'profile',
       player: {
         name: {
-          first: "Stephen",
-          last: "Curry"
+          first: 'Stephen',
+          last: 'Curry'
         },
         number: 30,
-        position: "PG",
+        position: 'PG',
         stats: {
           ppi: 5.67,
           outperform: 0.6432
         }
       },
       team: {
-        name: "Golden State Warriors"
+        name: 'Golden State Warriors'
       },
       league: {
-        name: "Warriors",
+        name: 'Warriors',
         division: 3,
         stats: {
           ppi: {

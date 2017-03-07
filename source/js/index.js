@@ -6,7 +6,4 @@ import App from 'components/App';
 import '../scss/app.scss';
 
 // Render DOM
-ReactDOM.render(
-  <App />,
-  document.getElementById('hooperApp')
-);
+ReactDOM.render(<App />, document.getElementById('hooperApp'));

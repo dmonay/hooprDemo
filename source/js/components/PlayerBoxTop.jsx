@@ -1,8 +1,8 @@
-import React from "react";
-import MenuBox from "./MenuBox";
-import HelpBox from "./HelpBox";
-import PlayerBox from "./PlayerBox";
-import PPIBox from "./PPIBox";
+import React from 'react';
+import MenuBox from './MenuBox';
+import HelpBox from './HelpBox';
+import PlayerBox from './PlayerBox';
+import PPIBox from './PPIBox';
 
 export default ({ data3 }) => (
     <div className="playerBoxTop">

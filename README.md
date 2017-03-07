@@ -13,7 +13,7 @@ npm test
 
 ### 3. Start server:
 ```
-npm start && open http://localhost:3000/
+npm start && open http://0.0.0.0:3000/
 ```
 
 This app uses [webpack dashboard](https://github.com/FormidableLabs/webpack-dashboard), so please note the following:
@@ -63,4 +63,5 @@ the extra tooling complexity inherent to brand-new features.
 
 ## Todos:
 - [ ] Add tests.
+- [ ] Comply with ESLint warnings
 - [ ] Bump up to v4 of D3 and use only necessary modules.
