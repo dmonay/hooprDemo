@@ -6,12 +6,7 @@ I use `nvm` for least-headache-inducing Node version management. If using nvm:
 2. Install Node LTS: `nvm install --lts`. If already installed: `nvm use --lts`
 3. `npm install`
 
-### 2. Run tests:
-```
-npm test
-```
-
-### 3. Start server:
+### 2. Start server:
 ```
 npm start && open http://0.0.0.0:3000/
 ```
@@ -20,7 +15,7 @@ This app uses [webpack dashboard](https://github.com/FormidableLabs/webpack-dash
 
 If using OS X Terminal.app: make sure that **View → Allow Mouse Reporting** is enabled, otherwise scrolling through logs and modules won't work. If your version of Terminal.app doesn't have this feature, you may want to check out an alternative such as [iTerm2](https://www.iterm2.com/).
 
-### 4. Recommended: Install React dev tools for Chrome here.
+### 3. Recommended: Install React dev tools for Chrome here.
 
 
 ## After making updates:
