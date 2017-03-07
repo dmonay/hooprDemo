@@ -2,9 +2,9 @@
 ### 1. Install dependencies
 I use `nvm` for least-headache-inducing Node version management. If using nvm:
 
-    1. Install nvm [here](https://github.com/creationix/nvm)
-    2. Install Node LTS: `nvm install --lts`. If already installed: `nvm use --lts`
-    3. `npm install`
+1. Install nvm [here](https://github.com/creationix/nvm)
+2. Install Node LTS: `nvm install --lts`. If already installed: `nvm use --lts`
+3. `npm install`
 
 ### 2. Run tests:
 ```
