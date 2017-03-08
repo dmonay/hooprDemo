@@ -21,9 +21,69 @@ svg {
     height: 300px;
     padding-left: 98px;
     padding-top: 42px;
+    margin-top: -92px;
 }
 
 rect {
     fill: #ffffff;
     stroke: none;
+}
+
+.toggleLabel {
+    position: relative;
+    top: -10px;
+    left: -50px;
+    color: #3488bb;
+}
+
+.spiderChartLegend {
+    width: 100px;
+    height: 64px;
+    background-color: #ffffff;
+    position: relative;
+    right: -349px;
+    top: -29px;
+    // visibility: hidden;
+    opacity: 0;
+}
+
+.spiderChartLegendYou {
+    height: 25px;
+    div {
+        width: 10px;
+        height: 10px;
+        background-color: #1f77b4;
+        float: left;
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+    p {
+        float: right;
+        width: 90px;
+        height: 30px;
+        float: right;
+        width: 62px;
+        height: 30px;
+        padding-top: 8px;
+    }
+}
+
+.spiderChartLegendAvg {
+    height: 25px;
+    margin-top: -10px;
+    div {
+        width: 10px;
+        height: 10px;
+        background-color: #ff7f0e;
+        float: left;
+        margin-top: 14px;
+        margin-left: 16px;
+    }
+    p {
+        float: right;
+        width: 90px;
+        height: 30px;
+        width: 62px;
+        height: 30px;
+    }
 }

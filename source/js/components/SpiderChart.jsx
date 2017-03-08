@@ -235,7 +235,22 @@ export default class ScatterPlot extends React.Component {
             .data(data)
             .enter()
             .append('g')
-            .attr('class', 'radarWrapper');
+            .attr('class', 'radarWrapper')
+            // .style('visibility', function(d, i) {
+            //     if (i == 0) {
+            //         return 'visible';
+            //     }
+            //     return 'hidden';
+            // })
+            .style('opacity', function(d, i) {
+                if (i == 0) {
+                    return 1;
+                }
+                return 0;
+            })
+            .attr('class', function(d, i) {
+                return 'radar' + i;
+            });
 
         //Append the backgrounds
         blobWrapper
